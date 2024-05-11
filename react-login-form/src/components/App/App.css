@@ -1,0 +1,12 @@
+body {
+  background-color: #003135;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+

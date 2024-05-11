@@ -1,0 +1,23 @@
+/* Styling the div element of the button component */
+.button {
+    margin: 2em 43.875px 2em 43.875px;
+}
+
+
+/* Styles for the HTML Button element itself */
+.btn {
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.42;
+    background-color: #b20303;
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
+}

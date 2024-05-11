@@ -1,0 +1,22 @@
+/* Styles for the input field component */
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 43.875px 2em 43.875px;
+}
+
+/* Style the label */
+.input-label {
+    width: 20%;
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+
+/* Style the input field */
+.input-element {
+    height: 2.5em;
+    border-radius: 0.75em;
+    border-color: transparent;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}

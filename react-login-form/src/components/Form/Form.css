@@ -1,0 +1,36 @@
+/* Styles for the Form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #AFDDE5;
+    height: 583px;
+    width: 468px;
+    margin: auto;
+    border-radius: 1.5em;
+}
+
+/* Form Heading section styles */
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    margin-top: 1.5em;
+    padding: 1em;
+    height: 50px;
+}
+
+/* Styles for the Form Heading element */
+.form-heading {
+    font-size: 2em;
+    color: #0fa4af
+}
+
+/* Styles for the Form Section */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 58.5px 1em 58.5px;
+    height: 333px;
+}
