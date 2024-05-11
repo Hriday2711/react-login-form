@@ -26,8 +26,10 @@ export default function Form() {
           {/* LOGIN BUTTON FOR LOGIN PAGE */}
           <Button buttonType={"submit"}>SIGN IN</Button>
         </form>
-        <Link>Forgot your password?</Link>
-        <Link>Create a new account - Sign Up</Link>
+        <section className="links-section">
+          <Link>Forgot your password?</Link>
+          <Link>Create a new account - Sign Up</Link>
+        </section>
       </div>
     </>
   );
