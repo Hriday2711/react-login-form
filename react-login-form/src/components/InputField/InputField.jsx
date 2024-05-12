@@ -1,9 +1,14 @@
 import "./InputField.css";
+import InlineError from "../Inline Error Message/InlineError";
 
 export default function InputField({
   labelName,
   labelForAttribute,
   inputType,
+  tabIndex = 0,
+  value,
+  onChange,
+  isSignInClicked,
 }) {
   return (
     <>
@@ -16,7 +21,11 @@ export default function InputField({
           type={inputType}
           name={labelForAttribute}
           id={labelForAttribute}
+          tabIndex={tabIndex}
+          value={value}
+          onChange={(event) => onChange(event)}
         />
+        {isSignInClicked && !value && <InlineError inputError={inputType} />}
       </div>
     </>
   );
