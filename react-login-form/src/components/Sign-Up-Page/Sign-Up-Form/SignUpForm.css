@@ -1,0 +1,52 @@
+/* Styles for the SignUp-Form container */
+.signup-form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #AFDDE5;
+    height: 583px;
+    width: 468px;
+    margin: auto;
+    border-radius: 1.5em;
+}
+
+/* SignUp-Form Heading section styles */
+.signup-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    margin-top: 1.5em;
+    padding: 1em;
+    height: 50px;
+}
+
+/* Styles for the Form Heading element */
+.signup-form-heading {
+    font-size: 2em;
+    color: #0fa4af
+}
+
+/* Styles for the Form Section */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 58.5px 1em 58.5px;
+    height: 375px;
+}
+
+/* Styles for the Login page link */
+.nav-link {
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    color: #b20303;
+    transition: color 0.5s;
+    margin-top: 16px;
+    align-items: flex-end;
+}
+
+.nav-link:hover {
+    color: purple;
+    text-decoration: underline;
+}

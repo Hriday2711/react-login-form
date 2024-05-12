@@ -8,7 +8,8 @@ export default function InputField({
   tabIndex = 0,
   value,
   onChange,
-  isSignInClicked,
+  isSubmitClicked,
+  placeHolder,
 }) {
   return (
     <>
@@ -24,8 +25,9 @@ export default function InputField({
           tabIndex={tabIndex}
           value={value}
           onChange={(event) => onChange(event)}
+          placeholder={placeHolder}
         />
-        {isSignInClicked && !value && <InlineError inputError={inputType} />}
+        {isSubmitClicked && !value && <InlineError inputError={labelName} />}
       </div>
     </>
   );

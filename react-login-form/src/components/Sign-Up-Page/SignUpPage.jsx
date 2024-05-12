@@ -1,7 +1,11 @@
+import SignUpForm from "./Sign-Up-Form/SignUpForm";
+import SignUpHeader from "./Sign-Up-Header/SignUpHeader";
+
 export default function SignUpPage() {
   return (
     <>
-      <h1>Welcome to Sign Up Page.</h1>
+      <SignUpHeader>Create a New Account</SignUpHeader>
+      <SignUpForm />
     </>
   );
 }

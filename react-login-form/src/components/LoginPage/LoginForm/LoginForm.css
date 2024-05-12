@@ -1,5 +1,5 @@
 /* Styles for the Form container */
-.form-container {
+.login-form-container {
     display: flex;
     flex-direction: column;
     background-color: #AFDDE5;
@@ -35,6 +35,16 @@
     height: 333px;
 }
 
-.linkList {
+/* Styles for the Forgot password and Sign Up page links */
+.nav-link {
+    display: block;
     text-decoration: none;
+    padding: 16px;
+    color: #b20303;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: purple;
+    text-decoration: underline;
 }
