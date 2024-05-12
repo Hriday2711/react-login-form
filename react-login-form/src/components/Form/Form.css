@@ -34,3 +34,7 @@
     margin: 1em 58.5px 1em 58.5px;
     height: 333px;
 }
+
+.linkList {
+    text-decoration: none;
+}

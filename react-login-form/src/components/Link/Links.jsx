@@ -1,6 +1,6 @@
-import "./Link.css";
+import "./Links.css";
 
-export default function Link({ children }) {
+export default function Links({ children }) {
   return (
     <>
       <a href="/" className="nav-link">

@@ -1,9 +1,10 @@
 import "./Form.css";
 import InputField from "../InputField/InputField.jsx";
-import Link from "../Link/Link.jsx";
+import Links from "../Link/Links.jsx";
 import Button from "../Button/Button";
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Form() {
   //States are declared here
@@ -61,8 +62,18 @@ export default function Form() {
           </Button>
         </form>
         <section className="links-section">
-          <Link>Forgot your password?</Link>
-          <Link>Create a new account - Sign Up</Link>
+          <ul className="linkList">
+            <li>
+              <Link to="/password-reset">
+                <Links>Forgot your password?</Links>
+              </Link>
+            </li>
+            <li>
+              <Link to="/signup">
+                <Links>Create a new account - Sign Up</Links>
+              </Link>
+            </li>
+          </ul>
         </section>
       </div>
     </>
